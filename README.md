@@ -3,7 +3,7 @@
 ...
 
 module "dev" {
-    source = "../"
+    source = "oshakirov5505/keypair/aws"
     region = "us-east-1"
     key_name_prefix = "deployer-"
     key_location = "~/.ssh/id_rsa.pub"
